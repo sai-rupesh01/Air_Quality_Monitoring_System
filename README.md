@@ -64,7 +64,5 @@
         </video>
 
         <h2>Source Code</h2>
-        <p>You can find the complete source code on the <a href="https://github.com/your-username/your-repo-name">GitHub repository</a>.</p>
-    </div>
-</body>
-</html>
+        <p>You can
+
