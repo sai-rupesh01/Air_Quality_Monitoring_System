@@ -1,7 +1,7 @@
 # 🌍 Air Quality Monitoring System
 
 ## 📖 About the Project
-The **Air Quality Monitoring System** is an **embedded edge-computing project** designed to measure and display real-time **indoor air pollution** using an **MQ-135 sensor**. It also measures **temperature and humidity** using **DHT11**. This system operates **without internet connectivity** and processes all data locally using an **Arduino Uno**.
+The **Air Quality Monitoring System** is an **Embedded Edge-Computing Project** designed to measure and display real-time **Indoor Air pollution** using an **MQ-135 sensor**. It also measures **Temperature and Humidity** using **DHT11**. This system operates **without internet connectivity** and processes all data locally using an **Arduino Uno**.
 
 ![Air Quality Monitoring System](image-link-here)
 
@@ -10,10 +10,9 @@ The **Air Quality Monitoring System** is an **embedded edge-computing project** 
 ## 🚀 Features
 - **Fully offline operation** with no need for internet connectivity.
 - **Edge computing** for real-time air quality monitoring.
-- **MQ-135 sensor** for detecting air pollutants (CO₂, NH₃, benzene, smoke, alcohol, etc.).
+- **MQ-135 sensor** for detecting air pollutants.
 - **DHT11 sensor** for temperature and humidity measurement.
 - **16x2 LCD Display (I2C)** for real-time data visualization.
-- Alerts for **poor air quality** using LEDs or buzzers.
 
 ---
 
@@ -36,13 +35,11 @@ The **Air Quality Monitoring System** is an **embedded edge-computing project** 
    ```
 4. **Assemble the components** into an enclosure for deployment.
 5. **View real-time air quality, temperature, and humidity readings** on the LCD display.
-6. **Set alerts** to trigger a buzzer or LED for poor air quality.
 
 ---
 
 ## 📡 Data Visualization
 - **LCD Display (I2C)** for instant data output.
-- **LED or buzzer alerts** for bad air quality.
 
 ---
 
@@ -54,10 +51,6 @@ The **Air Quality Monitoring System** is an **embedded edge-computing project** 
 
 ---
 
-## 📜 License
-This project is **open-source** and available under the **MIT License**.
-
----
 
 ## 🏗️ Future Enhancements
 - **Battery/Solar-powered Air Quality Station** ☀️🔋
@@ -66,12 +59,3 @@ This project is **open-source** and available under the **MIT License**.
 
 ---
 
-## 🤝 Contributing
-Feel free to contribute by submitting issues or pull requests. 💡
-
----
-
-## 📞 Contact
-For queries and collaboration, reach out at **[your-email@example.com]**.
-
-🌱 Let's build a cleaner and healthier indoor environment together! 🌍
