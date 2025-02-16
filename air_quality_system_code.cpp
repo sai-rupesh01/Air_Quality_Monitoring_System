@@ -4,7 +4,7 @@
 
 #define DHTPIN 3       // DHT11 data pin connected to D3
 #define DHTTYPE DHT11  // Define sensor type
-#define MQ04_PIN A0    // MQ-04 Analog Output to A0
+#define MQ135_PIN A0   // MQ-135 Analog Output to A0
 
 DHT dht(DHTPIN, DHTTYPE);
 LiquidCrystal_I2C lcd(0x27, 16, 2);  // I2C address 0x27, 16 columns x 2 rows
@@ -14,10 +14,10 @@ void setup() {
   dht.begin();
   lcd.begin();
   lcd.backlight();
-  pinMode(MQ04_PIN, INPUT);
+  pinMode(MQ135_PIN, INPUT);
 
   lcd.setCursor(0, 0);
-  lcd.print("Weather Monitor");
+  lcd.print("Air Quality Monitor");
   delay(2000);
   lcd.clear();
 }
@@ -27,8 +27,8 @@ void loop() {
   float temperature = dht.readTemperature();
   float humidity = dht.readHumidity();
 
-  // Read methane gas level
-  int gasValue = analogRead(MQ04_PIN);
+  // Read air quality level
+  int airQualityValue = analogRead(MQ135_PIN);
 
   // Display data on LCD
   lcd.setCursor(0, 0);
@@ -45,8 +45,8 @@ void loop() {
   
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("Gas Level:");
-  lcd.print(gasValue);
+  lcd.print("Air Quality:");
+  lcd.print(airQualityValue);
 
   delay(2000);
   lcd.clear();
@@ -56,8 +56,8 @@ void loop() {
   Serial.print(temperature);
   Serial.print("°C | Humidity: ");
   Serial.print(humidity);
-  Serial.print("% | Methane Level: ");
-  Serial.println(gasValue);
+  Serial.print("% | Air Quality Level: ");
+  Serial.println(airQualityValue);
 
   delay(2000); // Wait for 2 seconds
 }
