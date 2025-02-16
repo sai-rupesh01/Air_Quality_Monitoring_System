@@ -3,7 +3,6 @@
 ## 📖 About the Project
 The **Air Quality Monitoring System** is an **Embedded Edge-Computing Project** designed to measure and display real-time **Indoor Air pollution** using an **MQ-135 sensor**. It also measures **Temperature and Humidity** using **DHT11**. This system operates **without internet connectivity** and processes all data locally using an **Arduino Uno**.
 
-![Air Quality Monitoring System](image-link-here)
 
 ---
 
