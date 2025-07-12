@@ -12,6 +12,7 @@ The **Air Quality Monitoring System** is an **Embedded Edge-Computing Project** 
 - **MQ-135 sensor** for detecting air pollutants.
 - **DHT11 sensor** for temperature and humidity measurement.
 - **16x2 LCD Display (I2C)** for real-time data visualization.
+<img width="555" height="208" alt="image" src="https://github.com/user-attachments/assets/355b6015-1059-4554-ba4e-1ffd391468db" />
 
 ---
 
