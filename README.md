@@ -15,7 +15,7 @@ The **Air Quality Monitoring System** is an **Embedded Edge-Computing Project** 
 
 ## 📸 System Diagram
 ![A wiring diagram of the Air Quality Monitoring System components]
-(./assets/air_quality_system_diagram.png)
+(./air_quality_system_diagram.png)
 ---
 
 ## 🔧 Components Used
