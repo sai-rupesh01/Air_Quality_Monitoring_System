@@ -13,7 +13,8 @@ The **Air Quality Monitoring System** is an **Embedded Edge-Computing Project** 
 - **DHT11 sensor** for temperature and humidity measurement.
 - **16x2 LCD Display (I2C)** for real-time data visualization.
 
-(./main/Air_Quality_Monitoring_System/air_quality_system_diagram.png)
+![My Image](https://github.com/sai-rupesh01/Air_Quality_Monitoring_System/blob/main/air_quality_system_diagram.png)
+
 
 ## 🔧 Components Used
 - **Microcontroller**: Arduino Uno
